@@ -1,0 +1,502 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T10:07:10.943Z",
+        "line": 3,
+        "name": "Positive test validating Adding a new candidate",
+        "description": "",
+        "id": "adding-a-new-candidate;positive-test-validating-adding-a-new-candidate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5136855600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser with chrome",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.initialize_the_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7823440300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"https://opensource-demo.orangehrmlive.com\" Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.navigate_to_site(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8718264800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"admin123\" and logs in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.user_enters_and_and_logs_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118684100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is succesfully logged in",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.verify_that_user_is_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6231297200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Recruitment and again click on Add Candidate Button",
+            "match": {
+              "location": "stepDefinitions.AddCandidate.click_on_recruitment_and_again_click_on_add_candidate_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2391154700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Provide candadate details and click on save button",
+            "match": {
+              "location": "stepDefinitions.AddCandidate.provide_candadate_details_and_click_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 471768200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Adding a new candidate",
+    "description": "",
+    "id": "adding-a-new-candidate",
+    "keyword": "Feature",
+    "uri": "file:Features/AddCandidate.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T10:07:42.128Z",
+        "line": 3,
+        "name": "Positive test validating Creating/adding a new user",
+        "description": "",
+        "id": "creating/adding-a-new-user;positive-test-validating-creating/adding-a-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 816536200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser with chrome",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.initialize_the_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7691146000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"https://opensource-demo.orangehrmlive.com\" Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.navigate_to_site(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8782364100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"admin123\" and logs in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.user_enters_and_and_logs_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59838700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is succesfully logged in",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.verify_that_user_is_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2409444600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Admin",
+            "match": {
+              "location": "stepDefinitions.AddUser.user_clicks_on_admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4086149200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Add User",
+            "match": {
+              "location": "stepDefinitions.AddUser.user_clicks_on_add_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10591193000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add User details Successfully",
+            "match": {
+              "location": "stepDefinitions.AddUser.add_user_details_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67757200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that a user is added successfully",
+            "match": {
+              "location": "stepDefinitions.AddUser.verify_that_a_user_is_added_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 263380800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Creating/adding a new user",
+    "description": "",
+    "id": "creating/adding-a-new-user",
+    "keyword": "Feature",
+    "uri": "file:Features/AddUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T10:08:16.920Z",
+        "line": 3,
+        "name": "Positive test validating Deleting Created user",
+        "description": "",
+        "id": "deleting-created-user;positive-test-validating-deleting-created-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1102740700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser with chrome",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.initialize_the_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7856741300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"https://opensource-demo.orangehrmlive.com\" Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.navigate_to_site(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8557102200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"admin123\" and logs in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.user_enters_and_and_logs_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65959700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is succesfully logged in",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.verify_that_user_is_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2405181300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Admin",
+            "match": {
+              "location": "stepDefinitions.AddUser.user_clicks_on_admin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12539896500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Delete user",
+            "match": {
+              "location": "stepDefinitions.DeleteUserTest.delete_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126208700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Check if the user deleted successfully",
+            "match": {
+              "location": "stepDefinitions.DeleteUserTest.check_if_the_user_deleted_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 308657500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Deleting Created user",
+    "description": "",
+    "id": "deleting-created-user",
+    "keyword": "Feature",
+    "uri": "file:Features/DeleteUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T10:08:49.896Z",
+        "line": 3,
+        "name": "Positive test validating login",
+        "description": "",
+        "id": "login-into-application;positive-test-validating-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 862468100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initialize the browser with chrome",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.initialize_the_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8188174200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"https://opensource-demo.orangehrmlive.com\" Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.navigate_to_site(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7988380500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"admin123\" and logs in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.DemoLoginTest.user_enters_and_and_logs_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57829100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is succesfully logged in",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.verify_that_user_is_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 369416900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close browser",
+            "match": {
+              "location": "stepDefinitions.DemoLoginTest.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login into Application",
+    "description": "",
+    "id": "login-into-application",
+    "keyword": "Feature",
+    "uri": "file:Features/DemoLogin.feature",
+    "tags": []
+  }
+]
