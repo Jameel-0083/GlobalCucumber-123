@@ -8,3 +8,5 @@ Then Verify that user is succesfully logged in
 Then Click on Recruitment and again click on Add Candidate Button
 Then Provide candadate details and click on save button
 And Close browser
+
+And Close browser
