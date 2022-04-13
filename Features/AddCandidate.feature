@@ -10,3 +10,8 @@ Then Provide candadate details and click on save button
 And Close browser
 
 And Close browser
+And Close browser
+And Close browser
+And Close browser
+And Close browser
+And Close browser
